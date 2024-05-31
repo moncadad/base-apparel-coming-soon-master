@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="./script.js" defer></script>
+    <!-- <script src="./script.js"></script> -->
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style> -->
+  </head>
+  <body>
+    <div class="container">
+      <main class="hero">
+        <header id="header" class="hero__header">
+          <img class="header__img" src="./images/logo.svg" alt="Lady Shopper" />
+        </header>
+
+        <img
+          class="hero__img--mobile"
+          id="mobileImg"
+          src="./images/hero-mobile.jpg"
+        />
+        <section class="cta">
+          <h1>
+            WE'RE <br />
+            <span>COMING SOON </span>
+          </h1>
+          <p>
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+
+          <section id="inputArea" class="cta__input">
+            <!-- <form action=""> -->
+            <div style="display: flex">
+              <div id="inputBox">
+                <input
+                  id="emailInput"
+                  type="text"
+                  placeholder="Email Address"
+                  class="input__email"
+                />
+                <img
+                  src="./images/icon-error.svg"
+                  alt=""
+                  id="errorMark"
+                  style="visibility: hidden"
+                />
+                <button id="checkBtn" type="button">
+                  <img src="./images/icon-arrow.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <p id="emailAlert" class="input__alert">
+              Please provide a valid email
+            </p>
+            <!-- </form> -->
+          </section>
+        </section>
+      </main>
+      <img
+        id="desktopImg"
+        claass="hero__img--dsktop"
+        src="./images/hero-desktop.jpg"
+        alt="Lady Shopper"
+      />
+    </div>
+
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+  </body>
+</html>
+
+<!-- BEM -->
+<!-- lESS -->
+<!-- REACT -->
+<!-- REGEX / API-->
